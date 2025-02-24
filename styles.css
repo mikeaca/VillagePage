@@ -1,0 +1,107 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Old Standard TT", serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D3557;
+}
+
+h3{
+    font-size: medium;
+}
+
+#hero{
+    background-image: url("images/siggiewi.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#title{
+    background-color:#457B9D;
+    color: #F1FAEE;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 50px 100px 5px;
+}
+#sub-title{
+    background-color:#1D3557;
+    color: #F1FAEE;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 20px 80px
+}
+
+#activites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1FAEE;
+}
+
+#h-activities{
+    background-color: #F1FAEE;
+    
+}
+
+#activities-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-activity{
+border-radius: 50%;
+}
+
+#limestone{
+    background-image: url("images/limestone.jpg");
+    background-size: cover;
+}
+
+#falconry{
+    background-image: url("images/falconry.jpg");
+    background-size: cover;
+}
+
+#buskett{
+    background-image: url("images/buskett.jpg");
+}
+
+.img-activity:hover{
+    background-image: url("images/find.jpg");
+}
+
+#guide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 15px;
+    margin: 20px 50px;
+    background-color: #A8DADC;
+    border-bottom: 8px solid #1D3557;
+    border-radius: 5px;
+    height: 100px;
+}
+
+img {
+    width: 100px;
+}
+
+#card-text{
+    padding: 0 20px;
+}
