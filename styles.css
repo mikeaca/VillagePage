@@ -92,9 +92,11 @@ border-radius: 50%;
     margin: 0 auto;
 }
 
-//.img-activity:hover{
-//    background-image: url("images/find.jpg");
-//}
+/**
+.img-activity:hover{
+    background-image: url("images/find.jpg");
+}
+*/
 
 #limestone:hover{
     background-image: url("images/find.jpg");
