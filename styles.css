@@ -71,18 +71,38 @@ border-radius: 50%;
 #limestone{
     background-image: url("images/limestone.jpg");
     background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
 }
 
 #falconry{
     background-image: url("images/falconry.jpg");
     background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
 }
 
 #buskett{
     background-image: url("images/buskett.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
 }
 
-.img-activity:hover{
+//.img-activity:hover{
+//    background-image: url("images/find.jpg");
+//}
+
+#limestone:hover{
+    background-image: url("images/find.jpg");
+}
+#buskett:hover{
+    background-image: url("images/find.jpg");
+}
+#falconry:hover{
     background-image: url("images/find.jpg");
 }
 
@@ -91,11 +111,12 @@ border-radius: 50%;
     flex-direction: row;
     justify-content: center;
     padding: 10px 15px;
-    margin: 20px 50px;
+    margin: 20px auto;
     background-color: #A8DADC;
     border-bottom: 8px solid #1D3557;
     border-radius: 5px;
     height: 100px;
+    width: 300px;
 }
 
 img {
@@ -103,5 +124,7 @@ img {
 }
 
 #card-text{
+    width: 200px;
     padding: 0 20px;
+    
 }
